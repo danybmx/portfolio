@@ -214,7 +214,7 @@ if ($_POST) {
             <div class="clear"></div>
         </div>
 
-        <p style="text-align:center; margin: 40px auto; max-width: 600px;">
+        <p style="text-align:center; margin: 40px auto; max-width: 700px;">
           These percentages don't indicate my knowledge about that languages but
           the ability that I have to work with them. It is known that it is
           impossible to know everything... there are always new things to

@@ -305,7 +305,7 @@ if ($_POST) {
                     to manage my time and organize myself for this kind of works.<br>
                     <div style="margin-top: 20px; text-align: center">
                         <a href="https://play.google.com/store/apps/details?id=es.dpstudios.marisquino"><img
-                                    src="http://developer.android.com/images/brand/es_generic_rgb_wo_45.png"
+                                    src="//developer.android.com/images/brand/es_generic_rgb_wo_45.png"
                                     style="height: 40px"></a>
                         <a href="https://itunes.apple.com/es/app/marisquino/id550462096?mt=8&amp;uo=4"
                            target="itunes_store"

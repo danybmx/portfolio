@@ -33,7 +33,7 @@ html, body {
 body {
   padding: 0px;
   margin: 0px;
-  background-image: url("../img/bg3.png");
+  background-image: url("../img/bg.png");
   background-position: 0 top; }
   body header {
     position: fixed;
@@ -124,7 +124,7 @@ body {
       text-align: center;
       position: relative;
       -webkit-transform: translate3d(0, 0, 0);
-      background-image: url("../img/welcome2.jpg");
+      background-image: url("../img/welcome.jpg");
       background-repeat: no-repeat;
       background-position: center center;
       background-size: cover;
@@ -155,7 +155,7 @@ body {
           overflow: hidden; }
           body article#welcome div.bottom-wrapper div.bottom div.bg {
             margin-top: -102px;
-            background-image: url("../img/bg3.png");
+            background-image: url("../img/bg.png");
             background-position: 57px 20px;
             height: 100%;
             -webkit-transform: rotate(4deg);

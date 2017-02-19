@@ -1,8 +1,14 @@
 # My portfolio
 
-This is a really really simple portfolio that I made on 2015 just for show some of my works.
+This is a pretty really simple portfolio that I made on 2015 just for show some
+of my works.
 
-It's done using HTML, CSS (using Sass) & JS (using CoffeeScript) and a few lines of PHP for send emails.
+I've used HTML, CSS (using Sass) & JS (using CoffeeScript) and a few lines of
+PHP for send emails.
 
-For the deployment it creates a docker instance with the php:apache image, run it and attach to my server
-nginx-proxy container which adds https support using letsencrypt and exposes it to internet.
+For the deployment I've created a docker instance with a custom image based on
+php:apache where I've included composer.
+
+The docker-compose just build it up, runs it and attach it to the nginx-proxy
+docker external network that adds https support using letsencrypt and also
+exposes it to internet.

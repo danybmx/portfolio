@@ -2,7 +2,7 @@ version: '2'
 
 services:
   website:
-    image: 'php:apache'
+    build: .
     restart: always
     environment:
       - 'VIRTUAL_HOST=dpstudios.es,www.dpstudios.es'

@@ -3,6 +3,8 @@ version: '2'
 services:
   website:
     build: .
+    working_dir: '/var/www/html'
+    command: 'bash -c "php composer.phar install; apache2-foreground"'
     restart: always
     environment:
       - VIRTUAL_HOST=www.dpstudios.es,dpstudios.es

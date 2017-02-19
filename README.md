@@ -1,6 +1,6 @@
 # My portfolio
 
-This is a pretty really simple portfolio that I made on 2015 just for show some
+This is a pretty simple portfolio that I made on 2015 just for show some
 of my works.
 
 I've used HTML, CSS (using Sass) & JS (using CoffeeScript) and a few lines of

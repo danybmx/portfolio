@@ -1,0 +1,19 @@
+version: '2'
+
+services:
+  website:
+    image: 'php:apache'
+    restart: always
+    environment:
+      - 'VIRTUAL_HOST=dpstudios.es,www.dpstudios.es'
+      - 'VIRTUAL_PROTO=http'
+      - 'LETSENCRYPT_HOST=api.cromoly.com'
+      - 'LETSENCRYPT_EMAIL=dany@cromoly.com'
+    networks:
+      - nginx-proxy
+    volumes:
+      - ./site:/var/www/html
+
+networks:
+  nginx-proxy:
+    external: true

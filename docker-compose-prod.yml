@@ -5,10 +5,10 @@ services:
     build: .
     restart: always
     environment:
-      - 'VIRTUAL_HOST=dpstudios.es,www.dpstudios.es'
-      - 'VIRTUAL_PROTO=http'
-      - 'LETSENCRYPT_HOST=api.cromoly.com'
-      - 'LETSENCRYPT_EMAIL=dany@cromoly.com'
+      - LETSENCRYPT_HOST=dpstudios.es,www.dpstudios.es
+      - LETSENCRYPT_EMAIL=daniel@dpstudios.es
+      - VIRTUAL_HOST=dpstudios.es,www.dpstudios.es
+      - VIRTUAL_PROTO=http
     networks:
       - nginx-proxy
     volumes:

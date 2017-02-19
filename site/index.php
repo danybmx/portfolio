@@ -87,7 +87,7 @@ if ($_POST) {
 </head>
 <body>
 <!-- Github -->
-<a href="https://www.github.com/danybmx" class="github-corner" aria-label="Follow me on Github">
+<a href="https://github.com/danybmx/portfolio" class="github-corner" aria-label="Fork me on Github">
     <svg width="120" height="120" viewBox="0 0 250 250"
          style="fill:#fff; color:#000; position: absolute; top: 0; border: 0; right: 0;" aria-hidden="true">
         <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>

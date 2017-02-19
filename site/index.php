@@ -200,19 +200,26 @@ if ($_POST) {
     <div class="container">
         <div class="skills">
             <div class="skill" data-percent="100" data-name="HTML5"></div>
-            <div class="skill" data-percent="99" data-name="CSS3"></div>
+            <div class="skill" data-percent="95" data-name="CSS3"></div>
             <div class="skill" data-percent="90" data-name="Javascript"></div>
-            <div class="skill" data-percent="100" data-name="PHP"></div>
+            <div class="skill" data-percent="90" data-name="PHP"></div>
             <div class="skill" data-percent="95" data-name="Node.js"></div>
             <div class="skill" data-percent="90" data-name="Photoshop"></div>
             <div class="skill" data-percent="70" data-name="Illustrator"></div>
-            <div class="skill" data-percent="99" data-name="jQuery"></div>
+            <div class="skill" data-percent="95" data-name="jQuery"></div>
             <div class="skill" data-percent="80" data-name="Angular.js"></div>
             <div class="skill" data-percent="80" data-name="Objective-C"></div>
             <div class="skill" data-percent="75" data-name="Ruby on Rails"></div>
             <div class="skill" data-percent="20" data-name="Java"></div>
             <div class="clear"></div>
         </div>
+
+        <p style="text-align:center; margin: 40px auto; max-width: 600px;">
+          These percentages don't indicate my knowledge about that languages but
+          the ability that I have to work with them. It is known that it is
+          impossible to know everything... there are always new things to
+          learn... so the 100% maybe means a 10% of the language.
+        </p>
     </div>
 </article>
 <article id="works">
